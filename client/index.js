@@ -20,12 +20,12 @@ const client = (() => {
                 ],
                 data: {
                     notificationTime: Date.now(),
-                    githubUser: "hhimanshu"
+                    githubUser: "surajkr"
                 }
             }
             reg.showNotification('Second Notification', options)
         }
-        
+
         navigator.serviceWorker.getRegistration()
         .then(registration => customizedNotification(registration));
     }
